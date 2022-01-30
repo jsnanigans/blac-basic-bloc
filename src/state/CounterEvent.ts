@@ -1,8 +1,8 @@
-import {Bloc} from 'bloc-react';
+import { Bloc } from "blac";
 
 export enum CounterEvent {
-  Increment = 'Increment',
-  Decrement = 'Decrement',
+  Increment = "Increment",
+  Decrement = "Decrement",
 }
 
 export default class CounterBloc extends Bloc<CounterEvent, number> {

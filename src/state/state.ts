@@ -1,4 +1,4 @@
-import { BlocReact } from "bloc-react";
+import { Blac } from "blac";
 
-const state = new BlocReact([]);
+const state = new Blac([]);
 export const {useBloc} = state;
